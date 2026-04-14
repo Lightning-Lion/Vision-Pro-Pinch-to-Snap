@@ -2,6 +2,7 @@ import os
 import Combine
 import SwiftUI
 import RealityKit
+import VisionProKit
 
 // 作为Pack，是包在最外面一层的，面向用户的接口，用户可以轻松在任意ImmersiveSpace里使用我
 @MainActor

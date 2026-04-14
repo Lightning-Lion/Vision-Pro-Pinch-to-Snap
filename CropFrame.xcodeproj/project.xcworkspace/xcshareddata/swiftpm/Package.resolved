@@ -1,40 +1,13 @@
 {
-  "originHash" : "ab00487767eef5d744a2c9b5807c55d2486c60b349828db6e011b78a406be14b",
+  "originHash" : "05f26e205e75a7c7a9f0ddee8b4612ab9bf7cf97ff2e8af89b590f4ded8f4e10",
   "pins" : [
     {
-      "identity" : "doubleeyeopensource",
+      "identity" : "visionprokit",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/Lightning-Lion/DoubleEyeOpenSource.git",
+      "location" : "https://github.com/Lightning-Lion/VisionProKit.git",
       "state" : {
         "branch" : "main",
-        "revision" : "136b15259ae299d7a302a5b7ff6e6b7246cc60cb"
-      }
-    },
-    {
-      "identity" : "mixedrealitykitopensource",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/Lightning-Lion/MixedRealityKitOpenSource",
-      "state" : {
-        "branch" : "main",
-        "revision" : "8c6360badea2c37e4159121635137bfaf9a6293f"
-      }
-    },
-    {
-      "identity" : "opencv-spm",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/yeatse/opencv-spm.git",
-      "state" : {
-        "branch" : "main",
-        "revision" : "9b5943c3095350dedfb2bebd276f05643b7045d1"
-      }
-    },
-    {
-      "identity" : "swiftyjson",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/SwiftyJSON/SwiftyJSON.git",
-      "state" : {
-        "branch" : "master",
-        "revision" : "c761b43aa03f15f00df64744e70399d78c3bee96"
+        "revision" : "9e30744991329f8be428e57cea58a67fc15374c2"
       }
     }
   ],

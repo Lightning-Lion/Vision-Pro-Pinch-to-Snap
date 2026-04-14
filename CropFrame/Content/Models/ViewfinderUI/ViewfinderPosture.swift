@@ -1,6 +1,7 @@
 import SwiftUI
 import Spatial
 import RealityKit
+import VisionProKit
 
 @MainActor
 @Observable

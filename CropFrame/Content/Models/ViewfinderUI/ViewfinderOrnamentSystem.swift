@@ -2,6 +2,7 @@ import os
 import Combine
 import SwiftUI
 import RealityKit
+import VisionProKit
 
 // Ornament就是只管外观与瞄准
 // 用户触发了点击手势会外传，让使用者处理
@@ -17,7 +18,7 @@ class ViewfinderOrnamentSystem {
         var authOK = false
         do {
             // 先申请权限，不然进入ImmersiveSpace也无法正常工作
-            try await requestAuthorization()
+            try await requestHandAndCameraAuthorization()
             authOK = true
         } catch {
             // 先申请权限，不然进入ImmersiveSpace也无法正常工作
@@ -266,12 +267,8 @@ fileprivate class ViewfinderOrnamentController {
 class ViewfinderOrnamentPoseToCornersPose {
     typealias ViewfinderOrnamentPose = ViewfinderPoseModel.ViewfinderOrnamentPose
     // 回传给使用者，使用者会将这几个角点投影到摄像头画面，并裁切出对应的区域
-    struct ViewfinderOrnamentCornersPose {
-        var topLeft:Point3D
-        var topRight:Point3D
-        var bottomLeft:Point3D
-        var bottomRight:Point3D
-    }
+    // 复用VisionProKit中的定义，确保类型一致
+    typealias ViewfinderOrnamentCornersPose = ThreeDTo2DProjector.ViewfinderOrnamentCornersPose
     
     enum GetCornerPoseError: LocalizedError {
         case invalidPose

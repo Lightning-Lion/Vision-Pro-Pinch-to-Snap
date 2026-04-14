@@ -1,6 +1,7 @@
 import os
 import SwiftUI
 import RealityKit
+import VisionProKit
 
 // 我持有拍摄的照片，和拍摄流程解耦
 // 未来还可以加入持久化、反序列化逻辑

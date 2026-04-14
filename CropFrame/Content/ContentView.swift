@@ -50,7 +50,7 @@ struct ContentView: View {
 // 设置页面
 struct SettingsView: View {
     var dismiss:() -> Void
-    @AppStorage("photoPresentationMode") private var photoPresentationMode: PhotoThreeDimensionalEffectMode = .left
+    @AppStorage("photoPresentationMode") private var photoPresentationMode: PhotoThreeDimensionalEffectMode = .stereo
     
     var body: some View {
         NavigationStack {

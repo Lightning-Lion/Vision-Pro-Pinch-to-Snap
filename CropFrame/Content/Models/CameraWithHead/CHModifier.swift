@@ -1,6 +1,7 @@
 import os
 import SwiftUI
 import RealityKit
+import VisionProKit
 
 // 功能性Modifier
 struct CameraWithHeadModifier: ViewModifier {

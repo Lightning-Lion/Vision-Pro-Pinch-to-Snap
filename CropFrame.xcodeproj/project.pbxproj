@@ -7,17 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B40425F52F31D67F0071D535 /* Enterprise.license in Resources */ = {isa = PBXBuildFile; fileRef = B40425F42F31D67F0071D535 /* Enterprise.license */; };
-		B442E4162D4A26590061A4B0 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = B442E4152D4A26590061A4B0 /* RealityKitContent */; };
+		B43DEB752F89445600A434FD /* VisionProKit in Frameworks */ = {isa = PBXBuildFile; productRef = B43DEB742F89445600A434FD /* VisionProKit */; };
 		B442E4442D4A2AFF0061A4B0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B442E4432D4A2AF70061A4B0 /* README.md */; };
-		B45057182D51FDFD00399FA6 /* MixedRealityKit in Frameworks */ = {isa = PBXBuildFile; productRef = B45057172D51FDFD00399FA6 /* MixedRealityKit */; };
+		B487E5C92F894F62004513F3 /* Enterprise.license in Resources */ = {isa = PBXBuildFile; fileRef = B487E5C82F894F62004513F3 /* Enterprise.license */; };
+		B48B212A2F8E935300E289F2 /* VisionProKit in Frameworks */ = {isa = PBXBuildFile; productRef = B48B21292F8E935300E289F2 /* VisionProKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B40425F42F31D67F0071D535 /* Enterprise.license */ = {isa = PBXFileReference; lastKnownFileType = text; path = Enterprise.license; sourceTree = "<group>"; };
-		B442E3ED2D4A26150061A4B0 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		B442E4432D4A2AF70061A4B0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B45C1AF92D422ED9009C2DB6 /* CropFrame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CropFrame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B487E5C82F894F62004513F3 /* Enterprise.license */ = {isa = PBXFileReference; lastKnownFileType = text; path = Enterprise.license; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -46,8 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B45057182D51FDFD00399FA6 /* MixedRealityKit in Frameworks */,
-				B442E4162D4A26590061A4B0 /* RealityKitContent in Frameworks */,
+				B43DEB752F89445600A434FD /* VisionProKit in Frameworks */,
+				B48B212A2F8E935300E289F2 /* VisionProKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,7 +56,7 @@
 		B45C1AF02D422ED9009C2DB6 = {
 			isa = PBXGroup;
 			children = (
-				B40425F42F31D67F0071D535 /* Enterprise.license */,
+				B487E5C82F894F62004513F3 /* Enterprise.license */,
 				B442E4432D4A2AF70061A4B0 /* README.md */,
 				B45C1AFB2D422ED9009C2DB6 /* CropFrame */,
 				B45C1AFC2D422ED9009C2DB6 /* Packages */,
@@ -77,7 +76,6 @@
 		B45C1AFC2D422ED9009C2DB6 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				B442E3ED2D4A26150061A4B0 /* RealityKitContent */,
 			);
 			path = Packages;
 			sourceTree = "<group>";
@@ -109,8 +107,8 @@
 			);
 			name = CropFrame;
 			packageProductDependencies = (
-				B442E4152D4A26590061A4B0 /* RealityKitContent */,
-				B45057172D51FDFD00399FA6 /* MixedRealityKit */,
+				B43DEB742F89445600A434FD /* VisionProKit */,
+				B48B21292F8E935300E289F2 /* VisionProKit */,
 			);
 			productName = CropFrame;
 			productReference = B45C1AF92D422ED9009C2DB6 /* CropFrame.app */;
@@ -141,7 +139,7 @@
 			mainGroup = B45C1AF02D422ED9009C2DB6;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				B420F7942D51F33B005F1AF4 /* XCRemoteSwiftPackageReference "MixedRealityKitOpenSource" */,
+				B48B21282F8E935300E289F2 /* XCRemoteSwiftPackageReference "VisionProKit" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = B45C1AFA2D422ED9009C2DB6 /* Products */;
@@ -158,7 +156,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B40425F52F31D67F0071D535 /* Enterprise.license in Resources */,
+				B487E5C92F894F62004513F3 /* Enterprise.license in Resources */,
 				B442E4442D4A2AFF0061A4B0 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -182,7 +180,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = CropFrame/CropFrame.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CropFrame/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
@@ -190,8 +188,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Crop Frame";
-				INFOPLIST_KEY_NSHandsTrackingUsageDescription = "通过手势划定取景框";
-				INFOPLIST_KEY_NSMainCameraUsageDescription = "通过摄像头来拍照";
+				INFOPLIST_KEY_NSHandsTrackingUsageDescription = "手势触发拍照";
+				INFOPLIST_KEY_NSMainCameraUsageDescription = NSMainCameraUsageDescription;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -199,6 +197,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompanyname.cropframe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -213,7 +212,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = CropFrame/CropFrame.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CropFrame/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
@@ -221,8 +220,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Crop Frame";
-				INFOPLIST_KEY_NSHandsTrackingUsageDescription = "通过手势划定取景框";
-				INFOPLIST_KEY_NSMainCameraUsageDescription = "通过摄像头来拍照";
+				INFOPLIST_KEY_NSHandsTrackingUsageDescription = "手势触发拍照";
+				INFOPLIST_KEY_NSMainCameraUsageDescription = NSMainCameraUsageDescription;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -230,6 +229,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompanyname.cropframe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -381,9 +381,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		B420F7942D51F33B005F1AF4 /* XCRemoteSwiftPackageReference "MixedRealityKitOpenSource" */ = {
+		B48B21282F8E935300E289F2 /* XCRemoteSwiftPackageReference "VisionProKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Lightning-Lion/MixedRealityKitOpenSource";
+			repositoryURL = "https://github.com/Lightning-Lion/VisionProKit.git";
 			requirement = {
 				branch = main;
 				kind = branch;
@@ -392,14 +392,14 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		B442E4152D4A26590061A4B0 /* RealityKitContent */ = {
+		B43DEB742F89445600A434FD /* VisionProKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = RealityKitContent;
+			productName = VisionProKit;
 		};
-		B45057172D51FDFD00399FA6 /* MixedRealityKit */ = {
+		B48B21292F8E935300E289F2 /* VisionProKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = B420F7942D51F33B005F1AF4 /* XCRemoteSwiftPackageReference "MixedRealityKitOpenSource" */;
-			productName = MixedRealityKit;
+			package = B48B21282F8E935300E289F2 /* XCRemoteSwiftPackageReference "VisionProKit" */;
+			productName = VisionProKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
